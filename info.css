@@ -1,0 +1,190 @@
+
+body {
+    text-align: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #36393F;
+    color: beige;
+    }
+
+h1 {
+    color: #7289DA;
+    font-family: fantasy;
+}
+
+a{
+    text-decoration: underline;
+    color: beige;
+}
+
+a:hover{
+
+    color: #7289DA;
+}
+
+
+h2{
+
+    font-size: 10px;
+}
+
+
+input {
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7289DA;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+
+#gültigetoki{
+
+    font-family: Verdana;
+    font-size: 150%;
+    color: beige;
+    
+}
+
+#tokensList{
+
+    color: green;
+    cursor: pointer;
+}
+
+#tokensList li:hover{
+
+    color: aliceblue;
+}
+
+.token-info {
+
+    border: 2px solid #36393F;
+    outline-style: solid;
+    outline-color: #7289DA;
+    outline-width: 10px;
+}
+
+.hasNitro{
+
+    color: green;
+}
+
+.pb {
+    transition: transform 0.3s ease;
+  }
+  
+  .pb:hover {
+    transform: scale(1.1);
+    box-shadow: #36393F;
+  }
+  
+  .pb:active {
+    animation: highlight 0.3s;
+  }
+  
+  @keyframes highlight {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.2);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+
+.mitglied{
+    cursor: pointer;
+}
+
+.mitglied {
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+
+.mitglied:hover{
+    color: fuchsia;
+    text-shadow: #36393F;
+    animation: highlight 0.3s
+}
+
+.ani{
+    cursor: pointer;
+}
+
+.ani:hover{
+    color: #7289DA;
+    animation: highlight 0.3s;
+}
+
+.credits{
+
+    color: aquamarine;
+
+}
+  
+
+@media only screen and (max-width: 767px) {
+    body {
+        padding: 20px;
+        
+    }
+
+    .token-info {
+
+        border: 2px solid #36393F;
+        outline-style: solid;
+        outline-color: #7289DA;
+        outline-width: 10px;
+    }
+    
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+    body {
+        padding: 30px;
+    }
+
+    .token-info {
+
+        border: 2px solid #36393F;
+        outline-style: solid;
+        outline-color: #7289DA;
+        outline-width: 10px;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    body {
+        padding: 50px;
+        
+    }
+
+    .token-info {
+
+        border: 2px solid #36393F;
+        outline-style: solid;
+        outline-color: #7289DA;
+        outline-width: 10px;
+    }
+}
+  
+  
+  
+  
+  
